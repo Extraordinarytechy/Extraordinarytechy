@@ -15,24 +15,24 @@ This strategy mirrors a real enterprise environment, which consists of both mode
 ```
 
 \+-------------------------------------------------------------+
-|               PROJECT 1: THE FLAGSHIP                       |
-|           [Internal Developer Platform (IDP) on EKS]        |
+|               PROJECT 1: THE FLAGSHIP                        |
+|           [Internal Developer Platform (IDP) on EKS]         |
 \+----------------------+-------------------+------------------+
-|                   |
-|                   |
+|                       |                   |
+|                       |                   |     
 \+----------------------+                   |
-|  PROJECT 2: SATELLITE  |                   |
-|  [FinOps Guardian]     |                   |
-|  (Manages Cost)        |                   |
+|  PROJECT 2: SATELLITE |                   |
+|  [FinOps Guardian]    |                   |
+|  (Manages Cost)       |                   |
 \+----------------------+                   |
-|
-\+-------------------+------------------+
-|                                    |
-\+----------------------+                   +----------------------+
-|  PROJECT 3: SATELLITE  |                   |  PROJECT 4: SATELLITE  |
-|  [Observability Hub]   |                   |  [Ansible Fleet Automation]|
-|  (Manages Reliability) |                   |  (Manages Legacy Systems)|
-\+----------------------+                   +----------------------+
+|                                           | 
+\+-------------------+----------------------+
+|                                           |
+\+----------------------+                   +-----------------------------+
+|  PROJECT 3: SATELLITE  |                  |  PROJECT 4: SATELLITE       |
+|  [Observability Hub]   |                  |  [Ansible Fleet Automation] |
+|  (Manages Reliability) |                  |  (Manages Legacy Systems)   |
+\+----------------------+                   +-----------------------------+
 
 ```
 
