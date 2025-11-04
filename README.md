@@ -1,6 +1,6 @@
 # Hi, I'm Ajay Kumar  
 
-I am a Cloud & DevOps Engineer with a passion for building, automating and managing scalable, high-availability infrastructure. I believe in a "T-shaped" engineering approach: deep expertise in modern cloud-native systems, combined with a broad understanding of traditional IT operations.
+I am a Cloud, Data & DevOps Engineer with a passion for building, automating and managing scalable, high-availability infrastructure. I believe in a "T-shaped" engineering approach: deep expertise in modern cloud-native systems, combined with a broad understanding of traditional IT operations.
 
 To demonstrate these skills, I have built a complete, four-part SDE portfolio. This isn't just a collection of random projects; it's a single, interconnected ecosystem.
 
