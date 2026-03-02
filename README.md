@@ -1,16 +1,14 @@
-# Hi, I'm Ajay Kumar  
+# Ajay Kumar
 
-I am a Cloud, Data & DevOps Engineer with a passion for building, automating and managing scalable, high-availability infrastructure. I believe in a "T-shaped" engineering approach: deep expertise in modern cloud-native systems, combined with a broad understanding of traditional IT operations.
+Cloud & Platform Engineer focused on building secure, automated and reliable cloud-native systems.
 
-To demonstrate these skills, I have built a complete, four-part SDE portfolio. This isn't just a collection of random projects; it's a single, interconnected ecosystem.
+I work across AWS, Kubernetes, Terraform and automation tooling, with hands-on experience in infrastructure provisioning, CI/CD pipelines, observability and operational reliability. My projects reflect production-style debugging, real-world failure analysis and system design trade-offs.
 
 ---
 
-## My "T-Shaped" SDE Portfolio
+## Engineering Portfolio
 
-This portfolio is built around a "Flagship + Satellites" model. The **Flagship** project is a deep, complex, cloud-native platform, while the **Satellites** are professional-grade projects that solve critical, real-world operational problems (Cost, Reliability, and Legacy Systems).
-
-This strategy mirrors a real enterprise environment, which consists of both modern (EKS) and traditional (EC2) infrastructure.
+My repositories demonstrate cloud-native architecture, governance automation, observability practices and infrastructure management across both modern (EKS) and traditional (EC2) environments.
 
 ```
 
@@ -49,25 +47,26 @@ This is the central hub for accessing all four projects.
 
 ---
 
-## Portfolio Highlights & Technical Deep Dives
+## Selected Technical Highlights
 
-These projects are built on the real-world debugging and engineering solutions required in production environments. Below are some of the key technical challenges I successfully solved during their development.
-
-* **Project 3 (Observability):** Debugged a "silent" Helm deployment failure. Traced the root cause from a `RECONCILED False` state on the `Alertmanager` CRD all the way back to an `undefined receiver "null"` error in the operator's log, which was caused by invisible YAML-corrupting characters.
-
-* **Project 3 (Observability):** Engineered a two-file, production-safe deployment for Alertmanager, manually injecting the configuration via a `kubectl create secret` command to bypass Helm's file parsing and successfully launch the pod.
-
-* **Project 1 (IDP Flagship):** Resolved persistent `FailedScheduling` errors on EKS pods that required storage. The fix involved provisioning the `aws-ebs-csi-driver` as a Terraform-managed `aws_eks_addon`, complete with a custom IAM Role (IRSA) for the service account.
-
-* **Project 4 (Ansible Fleet):** Demonstrated a "self-healing" infrastructure by analyzing a "failed" playbook. Proved that the failure was *correct* behavior, as the Auto Scaling Group had terminated an unhealthy instance, and my Dynamic Inventory script had correctly found the *new, unconfigured* server.
-
-* **Project 4 (Ansible Fleet):** Architected the project to demonstrate "Day 2" operational tasks (e.g., `playbook-rolling-restart.yml`) on mutable infrastructure, and can articulate the critical trade-offs vs. a "Golden AMI" (immutable) pipeline.
+- Implemented Terraform-managed EKS add-ons with IRSA for secure storage provisioning (`aws-ebs-csi-driver`) and resolved pod `FailedScheduling` issues.
+- Diagnosed Helm deployment failures by tracing CRD reconciliation states and operator logs to YAML configuration errors.
+- Designed serverless governance automation using Lambda and EventBridge for cost visibility and enforcement.
+- Built dynamic Ansible inventory for Auto Scaling Groups and validated infrastructure replacement workflows.
+- Applied GitOps workflows (ArgoCD) for controlled Kubernetes deployments and environment consistency.
 
 ---
 
-## Let's Connect
+## Areas of Focus
 
-Thank you for visiting. I am always open to discussing technology and new opportunities.
+- Cloud-native infrastructure (AWS, EKS)
+- Infrastructure as Code (Terraform)
+- CI/CD automation
+- Observability & reliability engineering
+- Secure IAM design and least-privilege principles
 
-* **Email:** `extraordinarytechy@gmail.com`
-```
+---
+
+## Contact
+
+📧 extraordinarytechy@gmail.com  
