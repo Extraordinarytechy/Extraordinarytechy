@@ -6,7 +6,7 @@ I work across AWS, Kubernetes, Terraform and automation tooling, with hands-on e
 
 ---
 
-## Engineering Portfolio
+## Portfolio
 
 My repositories demonstrate cloud-native architecture, governance automation, observability practices and infrastructure management across both modern (EKS) and traditional (EC2) environments.
 
